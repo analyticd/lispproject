@@ -1,0 +1,18 @@
+* lispproject
+** License 
+MIT
+** Description
+Create Common Lisp project template. Run ./lispproject.sh to generate a usage message (or see Usage section below).
+** Usage
+Make the lispproject.sh script executable if needed: ```chmod +x lispproject.sh```
+
+Run the script:
+#+BEGIN_SRC shell
+./lispproject.sh name-of-project directory-within-which-project-directory-should-be-created
+#+END_SRC
+*** Note
+lispproject.sh will create your name-of-project directory inside of your
+directory-within-which-project-directory-should-be-created directory and
+automatically edit all source files to use your name-of-project as the name of
+the project. Your directory-within-which-project-directory-should-be-created
+directory will also be created if it doesn't yet exist.
